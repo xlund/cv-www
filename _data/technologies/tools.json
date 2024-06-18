@@ -1,20 +1,21 @@
 [
   {
     "name": "Postgres",
-    "type": "Database"
-  },
-  {
-    "name": "Redis",
-    "type": "Database"
+    "type": "DB"
   },
   {
     "name": "MongoDB",
-    "type": "Database"
+    "type": "DB"
+  },
+  {
+    "name": "Redis",
+    "type": ""
   },
   {
     "name": "Docker",
     "type": "Containerization"
   },
+
   {
     "name": "Git",
     "type": "Version Control"

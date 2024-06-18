@@ -1,6 +1,4 @@
-<section>
-  <h2>Technologies</h2>
-  <table class="table-white">
+<table class="table-white">
     <thead>
       <th>Languages</th>
     </thead>
@@ -27,15 +25,12 @@
   <table class="table-white">
     <thead>
       <th>Tools</th>
-      <th>Type</th>
     </thead>
     <tbody>
       {% for tool in technologies.tools %} {% if tool.name %}
       <tr>
         <td>{{ tool.name }}</td>
-        <td>{{ tool.type }}</td>
       </tr>
       {% endif %} {% endfor %}
     </tbody>
-  </table>
-</section>
+</table>

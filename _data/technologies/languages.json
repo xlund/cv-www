@@ -1,14 +1,6 @@
 [
   {
-    "name": "PHP",
-    "type": "Language"
-  },
-  {
     "name": "JavaScript",
-    "type": "Language"
-  },
-  {
-    "name": "TypeScript",
     "type": "Language"
   },
   {
@@ -17,6 +9,10 @@
   },
   {
     "name": "SQL",
+    "type": "Language"
+  },
+  {
+    "name": "PHP",
     "type": "Language"
   }
 ]

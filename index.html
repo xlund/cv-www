@@ -7,30 +7,7 @@ eleventyImport:
   collections: ["experience"]
 ---
 
-<section>
-  <h2>Experience</h2>
-
-  {% for experience in collections.experience reversed %}
-  <article>
-    <header>
-      <span>{{ experience.data.date | formatDate }}</span>
-      <span>/</span
-      ><strong>
-        <a href="{{ experience.url }}" alt="{{ experience.data.title }}"
-          >{{ experience.data.role }} @
-          <span class="company">{{ experience.data.title }}</span></a
-        >
-      </strong>
-    </header>
-
-    {% if experience.data.highlights %}
-    <ul>
-      {% for highlight in experience.data.highlights %}
-      <li>{{ highlight }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-  </article>
-  {% endfor %}
-</section>
-<aside>{% include "components/technologies" %}</aside>
+<div class="grid cols-2">
+  <section>{% include "components/experience" %}</section>
+  <section class="min-20">{% include "components/technologies" %}</section>
+</div>
