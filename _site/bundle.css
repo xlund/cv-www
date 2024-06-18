@@ -79,7 +79,9 @@ h6 {
   gap: var(--spacing-4);
 }
 .px-2 {
-  padding-inline: var(--spacing-2);
+  @media screen and (max-width: 45em) {
+    padding-inline: var(--spacing-2);
+  }
 }
 
 .cols-2 {
