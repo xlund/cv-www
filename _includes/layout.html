@@ -10,7 +10,7 @@
     <meta name="description" content="{{description | default: ''}}" />
   </head>
   <body class="measure-60 m-auto">
-    <header class="site-header">
+    <header class="site-header px-2">
       <h1>
         <a href="/" class="site-title" alt="Erik Naslund"> Erik Naslund CV</a>
       </h1>
@@ -21,8 +21,8 @@
         >
       </nav>
     </header>
-    <main>{{ content }}</main>
-    <footer class="site-footer">
+    <main class="px-2">{{ content }}</main>
+    <footer class="site-footer px-2">
       <p>&copy; {{ 'now' | date: "%Y" }} Erik Naslund. All rights reserved.</p>
     </footer>
   </body>
