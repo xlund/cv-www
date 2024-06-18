@@ -1,0 +1,61 @@
+[
+  {
+    "company": "Venture Port",
+    "title": "Product Manager",
+    "description": "Managed the development team. Translated stakeholder requirements into actionable tickets. Built the product website. Designed and implemented a new design system.",
+    "date": "2023",
+    "highlights": [
+      "Managed the development team",
+      "Translated stakeholder requirements into actionable tickets",
+      "Built the product website",
+      "Designed and implemented a new design system"
+    ],
+    "url": "https://www.ventureport.com/"
+  },
+  {
+    "company": "Lightweb",
+    "title": "Fullstack Developer",
+    "description": "Continued development on a real-time marketplace app. Built custom Wordpress and headless CMS solutions for clients. Held client meetings.",
+    "highlights": [
+      "Continued development on a real-time marketplace app",
+      "Built custom Wordpress and headless CMS solutions for clients",
+      "Held client meetings"
+    ],
+    "date": "2022",
+    "url": "https://www.lightweb.se"
+  },
+  {
+    "company": "Tappy",
+    "title": "Fullstack Developer",
+    "description": "Built a fullstack marketplace application with Flutter for the app, and Vue.js for the admin panel. Integrated Stripe as a payment processor and designed the platform.",
+    "highlights": [
+      "Built a fullstack marketplace application with Flutter for the app",
+      "Integrated Stripe as a payment processor",
+      "Designed the platform"
+    ],
+    "date": "2020",
+    "url": "https://www.tappy.co"
+  },
+  {
+    "company": "Timbro",
+    "title": "Graphic Designer",
+    "description": "Produced photography and video content for social media. Managed project planning and execution",
+    "highlights": [
+      "Produced photography and video content for social media",
+      "Managed project planning and execution"
+    ],
+    "date": "2019",
+    "url": "https://www.timbro.se/"
+  },
+  {
+    "company": "Moderata Ungdomsforbundet",
+    "title": "Graphic Designer",
+    "description": "Created photography and video content for social media platforms. Developed layouts for books and commercial campaigns.",
+    "highlights": [
+      "Created photography and video content for social media platforms",
+      "Developed layouts for books and commercial campaigns"
+    ],
+    "date": "2018",
+    "url": "https://www.muf.se/"
+  }
+]

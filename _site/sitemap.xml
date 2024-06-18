@@ -3,41 +3,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://cv.nsld.dev/experiences/moderata-ungdomsforbundet/</loc>
-    <lastmod>2018-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://cv.nsld.dev/experiences/timbro/</loc>
-    <lastmod>2019-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://cv.nsld.dev/experiences/tappy/</loc>
-    <lastmod>2020-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://cv.nsld.dev/experiences/lightweb/</loc>
-    <lastmod>2022-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://cv.nsld.dev/experiences/venture-port/</loc>
-    <lastmod>2023-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://cv.nsld.dev/</loc>
     <lastmod>2024-06-17</lastmod>
     <changefreq>monthly</changefreq>

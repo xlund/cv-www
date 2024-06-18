@@ -1,24 +1,22 @@
 <section>
-    {% for experience in collections.experience reversed %}
+    {% for experience in experiences %}
     <article>
       <header>
-        <span>{{ experience.data.date |  date: "%Y"  }}</span>
-        <span>/</span
-        ><strong>
-          <a href="{{ experience.url }}" alt="{{ experience.data.title }}"
-            >{{ experience.data.role }} @
-            <span class="company">{{ experience.data.title }}</span></a
+        <span>{{ experience.date   }}</span>
+        <span>/</span>
+        <strong>
+          <a href="{{ experience.url }}" alt="{{ experience.company }}"
+            >{{ experience.title }} @
+            <span class="company">{{ experience.company }}</span></a
           >
         </strong>
       </header>
 
-      {% if experience.data.highlights %}
       <ul>
-        {% for highlight in experience.data.highlights %}
+        {% for highlight in experience.highlights %}
         <li>{{ highlight }}</li>
         {% endfor %}
       </ul>
-      {% endif %}
     </article>
     {% endfor %}
   </section>
