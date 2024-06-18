@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PHP",
+    "type": "Language"
+  },
+  {
+    "name": "JavaScript",
+    "type": "Language"
+  },
+  {
+    "name": "TypeScript",
+    "type": "Language"
+  },
+  {
+    "name": "Go",
+    "type": "Language"
+  },
+  {
+    "name": "SQL",
+    "type": "Language"
+  }
+]

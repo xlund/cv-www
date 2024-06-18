@@ -1,0 +1,41 @@
+<section>
+  <h2>Technologies</h2>
+  <table class="table-white">
+    <thead>
+      <th>Languages</th>
+    </thead>
+    <tbody>
+      {% for tech in technologies.languages %}
+      <tr>
+        <td>{{ tech.name }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table-white">
+    <thead>
+      <th>Frameworks</th>
+    </thead>
+    <tbody>
+      {% for framework in technologies.frameworks %} {% if framework.name %}
+      <tr>
+        <td>{{ framework.name }}</td>
+      </tr>
+      {% endif %} {% endfor %}
+    </tbody>
+  </table>
+  <table class="table-white">
+    <thead>
+      <th>Tools</th>
+      <th>Type</th>
+    </thead>
+    <tbody>
+      {% for tool in technologies.tools %} {% if tool.name %}
+      <tr>
+        <td>{{ tool.name }}</td>
+        <td>{{ tool.type }}</td>
+      </tr>
+      {% endif %} {% endfor %}
+    </tbody>
+  </table>
+</section>

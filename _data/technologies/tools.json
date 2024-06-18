@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Postgres",
+    "type": "Database"
+  },
+  {
+    "name": "Redis",
+    "type": "Database"
+  },
+  {
+    "name": "MongoDB",
+    "type": "Database"
+  },
+  {
+    "name": "Docker",
+    "type": "Containerization"
+  },
+  {
+    "name": "Git",
+    "type": "Version Control"
+  },
+  {
+    "name": "HTMX",
+    "type": "Library"
+  }
+]

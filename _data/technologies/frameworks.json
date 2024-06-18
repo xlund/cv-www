@@ -1,0 +1,14 @@
+[
+  {
+    "name": "React",
+    "type": "Framework"
+  },
+  {
+    "name": "Svelte",
+    "type": "Framework"
+  },
+  {
+    "name": "11ty",
+    "type": "Framework"
+  }
+]
