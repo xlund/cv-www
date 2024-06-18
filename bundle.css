@@ -78,11 +78,6 @@ h6 {
   grid-template-columns: 1fr;
   gap: var(--spacing-4);
 }
-.px-2 {
-  @media screen and (max-width: 60em) {
-    padding-inline: var(--spacing-2);
-  }
-}
 
 .cols-2 {
   grid-template-columns: 1fr;
@@ -166,7 +161,10 @@ nav {
 }
 
 /* On mobile */
-@media (max-width: 600px) {
+@media (max-width: 60em) {
+  .px-2 {
+    padding-inline: var(--spacing-2);
+  }
   li {
     margin-bottom: var(--spacing-3);
   }
